@@ -1,3 +1,5 @@
+source - https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-train-model?view=azureml-api-2#set-your-kernel-and-open-in-visual-studio-code-vs-code
+
 Configure a training job using the command function
 You create an Azure Machine Learning command job to train a model for credit default prediction. The command job runs a training script in a specified environment on a specified compute resource. You already created the environment and the compute cluster. Next, create the training script. In this case, you're training the dataset to produce a classifier using the GradientBoostingClassifier model.
 The training script handles the data preparation, training, and registering of the trained model. The method train_test_split splits the dataset into test and training data. In this tutorial, you create a Python training script.
